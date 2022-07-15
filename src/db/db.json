@@ -2,13 +2,17 @@
   "products": [
     {
       "id": 1,
-      "name": "Red Bench",
+      "name": "Side Platform",
       "category": "people",
       "price": 3.89,
       "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "https://www.pexels.com/photo/four-men-sitting-on-platform-923657/",
+        "alt": "Four Men Sitting on Platform"
       },
       "bestseller": true,
       "featured": false,
@@ -16,30 +20,258 @@
     },
     {
       "id": 2,
-      "name": "Egg Balloon",
-      "category": "food",
+      "name": "White Dog",
+      "category": "pets",
       "price": 93.89,
       "currency": "USD",
-      "image": "",
-      "bestseller": false,
-      "featured": false,
-      "details": null
-    },
-    {
-      "id": 3,
-      "name": "Man",
-      "category": "people",
-      "price": 100,
-      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "https://www.pexels.com/photo/white-fluffy-dog-with-mountain-in-background-10429084/",
+        "alt": "White Fluffy Dog with Mountain in Background"
       },
       "bestseller": false,
       "featured": false,
       "details": null
     },
     {
+      "id": 3,
+      "name": "Tomato Pasta",
+      "category": "food",
+      "price": 100,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330/",
+        "alt": "Pasta With Tomato and Basil"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 4,
+      "name": "Stonehenge",
+      "category": "landmarks",
+      "price": 202,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/stonehenge-england-1448136/",
+        "alt": "Stonehenge"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 5,
+      "name": "Skyscrapers",
+      "category": "cities",
+      "price": 120.45,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/birds-eye-view-of-skyscrapers-in-a-city-12692135/",
+        "alt": "Skyscrapers in a City"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 6,
+      "name": "Green Mountain",
+      "category": "nature",
+      "price": 93.89,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/green-mountain-with-river-in-the-middle-4064432/",
+        "alt": "Green Mountain With River in the Middle"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 7,
+      "name": "Brown Hoodie",
+      "category": "people",
+      "price": 100,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/man-wearing-brown-hoodie-2064826/",
+        "alt": "Man Wearing Brown Hoodie"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 8,
+      "name": "Curious cat",
+      "category": "pets",
+      "price": 101,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/curious-cat-lying-at-home-at-sunshine-4398434/",
+        "alt": "Curious cat lying at home at sunshine"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 9,
+      "name": "Hamburger",
+      "category": "food",
+      "price": 3.89,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/hamburger-and-fries-photo-2983101/",
+        "alt": "Hamburger and Fries Photo"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 10,
+      "name": "Flatiron Building",
+      "category": "landmarks",
+      "price": 305,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/low-angle-photo-of-flatiron-building-1123982/",
+        "alt": "Low-angle of Flatiron Building"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 11,
+      "name": "Street Lights",
+      "category": "cities",
+      "price": 100,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/street-lights-802024/",
+        "alt": "Street Lights"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 12,
+      "name": "Pine Trees",
+      "category": "nature",
+      "price": 101,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/green-pine-trees-1179229/",
+        "alt": "Green Pine Trees"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 13,
+      "name": "Red Bench",
+      "category": "people",
+      "price": 3.89,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/brown-wooden-bench-on-green-grass-field-65958/",
+        "alt": "Bench"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 14,
+      "name": "Egg Balloon",
+      "category": "food",
+      "price": 93.89,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/person-holding-a-purple-balloon-11705955/",
+        "alt": "Balloon"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 15,
+      "name": "Man",
+      "category": "people",
+      "price": 100,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/man-in-hat-standing-in-seashore-3000497/",
+        "alt": "Man"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 16,
       "name": "Architecture",
       "category": "landmarks",
       "price": 101,
@@ -48,20 +280,95 @@
         "width": 1020,
         "height": 1020
       },
-      "image": "",
+      "image": {
+        "src": "https://www.pexels.com/photo/low-angle-photo-of-brown-building-2479178/",
+        "alt": "Architecture"
+      },
       "bestseller": false,
       "featured": false,
       "details": null
     },
-
     {
-      "name": "Samurai King Restling",
+      "id": 17,
+      "name": "Red Bench",
+      "category": "people",
+      "price": 3.89,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/brown-wooden-bench-on-green-grass-field-65958/",
+        "alt": "Bench"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 18,
+      "name": "Egg Balloon",
+      "category": "food",
+      "price": 93.89,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/person-holding-a-purple-balloon-11705955/",
+        "alt": "Balloon"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 19,
+      "name": "Man",
+      "category": "people",
+      "price": 100,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://www.pexels.com/photo/man-in-hat-standing-in-seashore-3000497/",
+        "alt": "Man"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 20,
+      "name": "Architecture",
       "category": "landmarks",
       "price": 101,
       "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "https://www.pexels.com/photo/low-angle-photo-of-brown-building-2479178/",
+        "alt": "Architecture"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 21,
+      "name": "Pit Bull Terrier With Brown Costume",
+      "category": "pets",
+      "price": 101,
+      "currency": "USD",
+      "image": {
+        "src": "https://www.pexels.com/photo/brown-and-white-american-pit-bull-terrier-with-brown-costume-825949/",
+        "alt": "Pit Bull Terrier With Brown Costume"
       },
       "bestseller": false,
       "featured": true,
@@ -71,16 +378,16 @@
         "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.",
         "recommendations": [
           {
-            "src": "",
-            "alt": ""
+            "src": "https://www.pexels.com/photo/green-pine-trees-1179229/",
+            "alt": "Green Pine Trees"
           },
           {
-            "src": "",
-            "alt": ""
+            "src": "https://www.pexels.com/photo/white-fluffy-dog-with-mountain-in-background-10429084/",
+            "alt": "White Fluffy Dog with Mountain in Background"
           },
           {
-            "src": "",
-            "alt": ""
+            "src": "https://www.pexels.com/photo/stonehenge-england-1448136/",
+            "alt": "Stonehenge"
           }
         ]
       }
