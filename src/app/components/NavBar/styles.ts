@@ -24,8 +24,10 @@ export const StyledNavBar = styled(AppBar, {})`
   }
 
   @media (min-width: 768px) {
+    padding: 0 1.6rem 0 1.2rem;
+
     hr {
-      width: 96%;
+      width: 98%;
     }
   }
 `;
