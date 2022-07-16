@@ -12,10 +12,23 @@ export const StyledFeatureHero = styled(Box, {})`
     font-weight: 600;
   }
 
-  img {
-    width: 100%;
-    height: 100%;
+  .feature-image {
     margin: 1rem auto;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .image-text {
+      background: white;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
   }
 
   button {
@@ -32,7 +45,7 @@ export const StyledFeatureHero = styled(Box, {})`
       order: 1;
     }
 
-    img {
+    .feature-image {
       order: 3;
     }
 

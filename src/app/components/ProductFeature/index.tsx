@@ -17,7 +17,10 @@ const ProductFeature = () => {
     <Box sx={{ my: 5 }}>
       <StyledFeatureHero>
         <Typography component="h1">{data?.name}</Typography>
-        <img src={data?.image.src} alt={data?.image.alt} />
+        <Box className="feature-image">
+          <img src={data?.image.src} alt={data?.image.alt} />
+          <Typography className="image-text">Photo of the day</Typography>
+        </Box>
         <Button variant="contained">Add to cart</Button>
       </StyledFeatureHero>
       <StyledFeatureContent>
