@@ -14,7 +14,7 @@ const ProductFeature = () => {
   if (isError) return <Error message="Feature is not available." />;
 
   return (
-    <Box sx={{ my: 5 }}>
+    <Box sx={{ my: 3 }}>
       <StyledFeatureHero>
         <Typography component="h1">{data?.name}</Typography>
         <Box className="feature-image">

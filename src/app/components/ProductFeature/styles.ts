@@ -8,7 +8,7 @@ export const StyledFeatureHero = styled(Box, {})`
   margin-bottom: 1rem;
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
   }
 
@@ -23,6 +23,7 @@ export const StyledFeatureHero = styled(Box, {})`
 
     .image-text {
       background: white;
+      font-size: 1rem;
       font-weight: 600;
       padding: 0.5rem 1rem;
       position: absolute;
@@ -41,12 +42,16 @@ export const StyledFeatureHero = styled(Box, {})`
     flex-wrap: wrap;
 
     h1 {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       order: 1;
     }
 
     .feature-image {
       order: 3;
+
+      .image-text {
+        font-size: 1.2rem;
+      }
     }
 
     button {
@@ -61,7 +66,7 @@ export const StyledFeatureContent = styled(Box, {})`
   flex-direction: column;
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: 1rem 0;
   }
@@ -71,14 +76,12 @@ export const StyledFeatureContent = styled(Box, {})`
   }
 
   p {
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.6;
 
     @media (min-width: 768px) {
       line-height: 1.8;
     }
-  }
-
-  .about-feature {
   }
 
   .recommendations {
@@ -104,7 +107,12 @@ export const StyledFeatureContent = styled(Box, {})`
     flex-direction: row;
     justify-content: space-between;
 
+    h2 {
+      font-size: 1.2rem;
+    }
+
     p {
+      font-size: 1rem;
       line-height: 1.8;
     }
 
