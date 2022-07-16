@@ -4,7 +4,6 @@ import { styled } from '@mui/system';
 export const StyledNavBar = styled(AppBar, {})`
   background-color: white;
   box-shadow: none;
-  padding: 0 1rem;
 
   h1 {
     color: black;
@@ -22,5 +21,11 @@ export const StyledNavBar = styled(AppBar, {})`
   hr {
     margin: auto;
     width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    hr {
+      width: 96%;
+    }
   }
 `;
