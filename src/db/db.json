@@ -1,4 +1,36 @@
 {
+  "featured": {
+    "id": 101,
+    "name": "Samurai King Resting",
+    "category": "pets",
+    "price": 101,
+    "currency": "USD",
+    "image": {
+      "src": "https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg",
+      "alt": "Samurai King Resting"
+    },
+    "bestseller": false,
+    "featured": true,
+    "details": {
+      "dimensions": { "width": 1020, "height": 1020 },
+      "size": 15000,
+      "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.",
+      "recommendations": [
+        {
+          "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg",
+          "alt": "Green Pine Trees"
+        },
+        {
+          "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg",
+          "alt": "White Fluffy Dog with Mountain in Background"
+        },
+        {
+          "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg",
+          "alt": "Stonehenge"
+        }
+      ]
+    }
+  },
   "products": [
     {
       "id": 1,
@@ -6,12 +38,12 @@
       "category": "people",
       "price": 3.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/four-men-sitting-on-platform-923657/",
+        "src": "https://images.pexels.com/photos/923657/pexels-photo-923657.jpeg",
         "alt": "Four Men Sitting on Platform"
       },
       "bestseller": true,
@@ -24,12 +56,12 @@
       "category": "pets",
       "price": 93.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/white-fluffy-dog-with-mountain-in-background-10429084/",
+        "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg",
         "alt": "White Fluffy Dog with Mountain in Background"
       },
       "bestseller": false,
@@ -42,12 +74,12 @@
       "category": "food",
       "price": 100,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330/",
+        "src": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
         "alt": "Pasta With Tomato and Basil"
       },
       "bestseller": false,
@@ -60,12 +92,12 @@
       "category": "landmarks",
       "price": 202,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/stonehenge-england-1448136/",
+        "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg",
         "alt": "Stonehenge"
       },
       "bestseller": false,
@@ -78,12 +110,12 @@
       "category": "cities",
       "price": 120.45,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/birds-eye-view-of-skyscrapers-in-a-city-12692135/",
+        "src": "https://images.pexels.com/photos/12692135/pexels-photo-12692135.jpeg",
         "alt": "Skyscrapers in a City"
       },
       "bestseller": true,
@@ -96,12 +128,12 @@
       "category": "nature",
       "price": 93.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/green-mountain-with-river-in-the-middle-4064432/",
+        "src": "https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg",
         "alt": "Green Mountain With River in the Middle"
       },
       "bestseller": false,
@@ -114,12 +146,12 @@
       "category": "people",
       "price": 100,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/man-wearing-brown-hoodie-2064826/",
+        "src": "https://images.pexels.com/photos/2064826/pexels-photo-2064826.jpeg",
         "alt": "Man Wearing Brown Hoodie"
       },
       "bestseller": false,
@@ -132,12 +164,12 @@
       "category": "pets",
       "price": 101,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/curious-cat-lying-at-home-at-sunshine-4398434/",
+        "src": "https://images.pexels.com/photos/4398434/pexels-photo-4398434.jpeg",
         "alt": "Curious cat lying at home at sunshine"
       },
       "bestseller": false,
@@ -150,12 +182,12 @@
       "category": "food",
       "price": 3.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/hamburger-and-fries-photo-2983101/",
+        "src": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
         "alt": "Hamburger and Fries Photo"
       },
       "bestseller": true,
@@ -168,12 +200,12 @@
       "category": "landmarks",
       "price": 305,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/low-angle-photo-of-flatiron-building-1123982/",
+        "src": "https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg",
         "alt": "Low-angle of Flatiron Building"
       },
       "bestseller": false,
@@ -186,7 +218,7 @@
       "category": "cities",
       "price": 100,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
@@ -204,12 +236,12 @@
       "category": "nature",
       "price": 101,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/green-pine-trees-1179229/",
+        "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg",
         "alt": "Green Pine Trees"
       },
       "bestseller": false,
@@ -222,12 +254,12 @@
       "category": "people",
       "price": 3.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/brown-wooden-bench-on-green-grass-field-65958/",
+        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg",
         "alt": "Bench"
       },
       "bestseller": true,
@@ -240,12 +272,12 @@
       "category": "food",
       "price": 93.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/person-holding-a-purple-balloon-11705955/",
+        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg",
         "alt": "Balloon"
       },
       "bestseller": false,
@@ -258,12 +290,12 @@
       "category": "people",
       "price": 100,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/man-in-hat-standing-in-seashore-3000497/",
+        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg",
         "alt": "Man"
       },
       "bestseller": false,
@@ -276,12 +308,12 @@
       "category": "landmarks",
       "price": 101,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/low-angle-photo-of-brown-building-2479178/",
+        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg",
         "alt": "Architecture"
       },
       "bestseller": false,
@@ -294,12 +326,12 @@
       "category": "people",
       "price": 3.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/brown-wooden-bench-on-green-grass-field-65958/",
+        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg",
         "alt": "Bench"
       },
       "bestseller": true,
@@ -312,12 +344,12 @@
       "category": "food",
       "price": 93.89,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/person-holding-a-purple-balloon-11705955/",
+        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg",
         "alt": "Balloon"
       },
       "bestseller": false,
@@ -330,12 +362,12 @@
       "category": "people",
       "price": 100,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/man-in-hat-standing-in-seashore-3000497/",
+        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg",
         "alt": "Man"
       },
       "bestseller": false,
@@ -348,49 +380,17 @@
       "category": "landmarks",
       "price": 101,
       "currency": "USD",
-      "dimmentions": {
+      "dimensions": {
         "width": 1020,
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/low-angle-photo-of-brown-building-2479178/",
+        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg",
         "alt": "Architecture"
       },
       "bestseller": false,
       "featured": false,
       "details": null
-    },
-    {
-      "id": 21,
-      "name": "Pit Bull Terrier With Brown Costume",
-      "category": "pets",
-      "price": 101,
-      "currency": "USD",
-      "image": {
-        "src": "https://www.pexels.com/photo/brown-and-white-american-pit-bull-terrier-with-brown-costume-825949/",
-        "alt": "Pit Bull Terrier With Brown Costume"
-      },
-      "bestseller": false,
-      "featured": true,
-      "details": {
-        "dimmentions": { "width": 1020, "height": 1020 },
-        "size": 15000,
-        "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.",
-        "recommendations": [
-          {
-            "src": "https://www.pexels.com/photo/green-pine-trees-1179229/",
-            "alt": "Green Pine Trees"
-          },
-          {
-            "src": "https://www.pexels.com/photo/white-fluffy-dog-with-mountain-in-background-10429084/",
-            "alt": "White Fluffy Dog with Mountain in Background"
-          },
-          {
-            "src": "https://www.pexels.com/photo/stonehenge-england-1448136/",
-            "alt": "Stonehenge"
-          }
-        ]
-      }
     }
   ]
 }
