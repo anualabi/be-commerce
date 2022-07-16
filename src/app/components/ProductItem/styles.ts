@@ -15,6 +15,16 @@ export const StyledProductImage = styled(Box, {})`
     height: 320px;
   }
 
+  .bestseller {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   button {
     background-color: black;
     border: none;
