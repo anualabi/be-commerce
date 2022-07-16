@@ -1,7 +1,9 @@
 import Box from '@mui/material/Box';
+import Divider from '@mui/material/Divider';
 import { styled } from '@mui/system';
 import NavBar from './components/NavBar';
 import ProductFeature from './components/ProductFeature';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <NavBar />
       <StyledSiteBody>
         <ProductFeature />
+        <Divider />
+        <ProductList />
       </StyledSiteBody>
     </>
   );
@@ -18,7 +22,7 @@ export const StyledSiteBody = styled(Box, {})`
   padding: 0 0.5rem;
 
   @media (min-width: 768px) {
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 `;
 

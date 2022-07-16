@@ -22,12 +22,5 @@ export interface IProduct {
   image: ProductImage;
   bestseller: boolean;
   featured: boolean;
-  details: ProductDetails;
-}
-
-export type IFeatured = IProduct;
-
-export interface APIResponse {
-  featured: IProduct;
-  products: IProduct[];
+  details: ProductDetails | null;
 }
