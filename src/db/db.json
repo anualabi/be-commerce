@@ -6,7 +6,7 @@
     "price": 101,
     "currency": "USD",
     "image": {
-      "src": "https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg",
+      "src": "https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "alt": "Samurai King Resting"
     },
     "bestseller": false,
@@ -17,15 +17,15 @@
       "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.",
       "recommendations": [
         {
-          "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg",
+          "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           "alt": "Green Pine Trees"
         },
         {
-          "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg",
+          "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           "alt": "White Fluffy Dog with Mountain in Background"
         },
         {
-          "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg",
+          "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           "alt": "Stonehenge"
         }
       ]
@@ -43,7 +43,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/923657/pexels-photo-923657.jpeg",
+        "src": "https://images.pexels.com/photos/923657/pexels-photo-923657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Four Men Sitting on Platform"
       },
       "bestseller": true,
@@ -61,7 +61,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg",
+        "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "White Fluffy Dog with Mountain in Background"
       },
       "bestseller": false,
@@ -79,7 +79,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+        "src": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Pasta With Tomato and Basil"
       },
       "bestseller": false,
@@ -97,7 +97,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg",
+        "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Stonehenge"
       },
       "bestseller": false,
@@ -115,7 +115,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/12692135/pexels-photo-12692135.jpeg",
+        "src": "https://images.pexels.com/photos/12692135/pexels-photo-12692135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Skyscrapers in a City"
       },
       "bestseller": true,
@@ -133,7 +133,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg",
+        "src": "https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Green Mountain With River in the Middle"
       },
       "bestseller": false,
@@ -151,7 +151,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2064826/pexels-photo-2064826.jpeg",
+        "src": "https://images.pexels.com/photos/2064826/pexels-photo-2064826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Man Wearing Brown Hoodie"
       },
       "bestseller": false,
@@ -169,7 +169,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/4398434/pexels-photo-4398434.jpeg",
+        "src": "https://images.pexels.com/photos/4398434/pexels-photo-4398434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Curious cat lying at home at sunshine"
       },
       "bestseller": false,
@@ -187,7 +187,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
+        "src": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Hamburger and Fries Photo"
       },
       "bestseller": true,
@@ -205,7 +205,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg",
+        "src": "https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Low-angle of Flatiron Building"
       },
       "bestseller": false,
@@ -223,7 +223,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://www.pexels.com/photo/street-lights-802024/",
+        "src": "https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Street Lights"
       },
       "bestseller": false,
@@ -241,7 +241,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg",
+        "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Green Pine Trees"
       },
       "bestseller": false,
@@ -259,8 +259,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg",
-        "alt": "Bench"
+        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Red Bench"
       },
       "bestseller": true,
       "featured": false,
@@ -277,8 +277,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg",
-        "alt": "Balloon"
+        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Egg Balloon"
       },
       "bestseller": false,
       "featured": false,
@@ -286,7 +286,7 @@
     },
     {
       "id": 15,
-      "name": "Man",
+      "name": "Seashore",
       "category": "people",
       "price": 100,
       "currency": "USD",
@@ -295,8 +295,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg",
-        "alt": "Man"
+        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Man in Hat Standing in Seashore"
       },
       "bestseller": false,
       "featured": false,
@@ -304,7 +304,7 @@
     },
     {
       "id": 16,
-      "name": "Architecture",
+      "name": "Brown Building",
       "category": "landmarks",
       "price": 101,
       "currency": "USD",
@@ -313,8 +313,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg",
-        "alt": "Architecture"
+        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Low Angle Photo of Brown Building"
       },
       "bestseller": false,
       "featured": false,
@@ -331,8 +331,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg",
-        "alt": "Bench"
+        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Red Bench"
       },
       "bestseller": true,
       "featured": false,
@@ -349,8 +349,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg",
-        "alt": "Balloon"
+        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Egg Balloon"
       },
       "bestseller": false,
       "featured": false,
@@ -358,7 +358,7 @@
     },
     {
       "id": 19,
-      "name": "Man",
+      "name": "Seashore",
       "category": "people",
       "price": 100,
       "currency": "USD",
@@ -367,8 +367,8 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg",
-        "alt": "Man"
+        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Man in Hat Standing in Seashore"
       },
       "bestseller": false,
       "featured": false,
@@ -385,7 +385,7 @@
         "height": 1020
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg",
+        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Architecture"
       },
       "bestseller": false,
