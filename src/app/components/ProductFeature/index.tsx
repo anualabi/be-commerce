@@ -20,7 +20,13 @@ const ProductFeature = () => {
           {data?.name}
         </Typography>
         <Box className="feature-image">
-          <img src={data?.image.src} alt={data?.image.alt} />
+          <img
+            srcSet={`${data?.srcset.lg} 1920w, ${data?.srcset.md} 960w, ${data?.srcset.sm} 480w`}
+            src={data?.image.src}
+            alt={data?.image.alt}
+            width={data?.dimensions.width}
+            height={data?.dimensions.height}
+          />
           <Typography className="image-text">Photo of the day</Typography>
         </Box>
         <Button variant="contained" className="cart-btn">
@@ -37,7 +43,13 @@ const ProductFeature = () => {
           <Typography variant="h2">People also buy</Typography>
           <Box className="recommended-images">
             {data?.details?.recommendations.map((image, index) => (
-              <img key={index} src={image.src} alt={image.alt} />
+              <img
+                key={index}
+                src={image.src}
+                alt={image.alt}
+                width={data.details?.dimensions.width}
+                height={data.details?.dimensions.height}
+              />
             ))}
           </Box>
           <Typography variant="h2">Details</Typography>

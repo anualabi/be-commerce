@@ -19,6 +19,7 @@ export interface IProduct {
   price: number;
   currency: string;
   dimensions: ProductDimension;
+  srcset: { lg: string; md: string; sm: string };
   image: ProductImage;
   bestseller: boolean;
   featured: boolean;

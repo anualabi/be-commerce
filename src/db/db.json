@@ -5,27 +5,33 @@
     "category": "pets",
     "price": 101,
     "currency": "USD",
+    "dimensions": { "width": 960, "height": 480 },
+    "srcset": {
+      "lg": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1657902979/samurai-king-resting_wmpow4.jpg",
+      "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/feature-img-w-960_hyicap.jpg",
+      "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/feature-img-w-480_tsb0gl.jpg"
+    },
     "image": {
-      "src": "https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/feature-img-w-960_hyicap.jpg",
       "alt": "Samurai King Resting"
     },
     "bestseller": false,
     "featured": true,
     "details": {
-      "dimensions": { "width": 1020, "height": 1020 },
+      "dimensions": { "width": 320, "height": 480 },
       "size": 15000,
       "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.",
       "recommendations": [
         {
-          "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          "alt": "Green Pine Trees"
+          "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/pancake-w-320_xucy5b.jpg",
+          "alt": "Pancake"
         },
         {
-          "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/white-dog-w-320_mktyyd.jpg",
           "alt": "White Fluffy Dog with Mountain in Background"
         },
         {
-          "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/stonehenge-w-320_ewdear.jpg",
           "alt": "Stonehenge"
         }
       ]
@@ -34,17 +40,19 @@
   "products": [
     {
       "id": 1,
-      "name": "Side Platform",
+      "name": "Black Denim",
       "category": "people",
       "price": 3.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078341/black-denim-640_iycwhl.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/black-denim-w-320_km38x1.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/923657/pexels-photo-923657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Four Men Sitting on Platform"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/black-denim-w-320_km38x1.jpg",
+        "alt": "Men in Black Denim"
       },
       "bestseller": true,
       "featured": false,
@@ -56,12 +64,14 @@
       "category": "pets",
       "price": 93.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/white-dog_cjxpm6.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/white-dog-w-320_mktyyd.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/10429084/pexels-photo-10429084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/white-dog-w-320_mktyyd.jpg",
         "alt": "White Fluffy Dog with Mountain in Background"
       },
       "bestseller": false,
@@ -70,17 +80,19 @@
     },
     {
       "id": 3,
-      "name": "Tomato Pasta",
+      "name": "Pancake",
       "category": "food",
       "price": 100,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078340/pancake-w-640_oxdrzz.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/pancake-w-320_xucy5b.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Pasta With Tomato and Basil"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/pancake-w-320_xucy5b.jpg",
+        "alt": "Pancake"
       },
       "bestseller": false,
       "featured": false,
@@ -92,12 +104,14 @@
       "category": "landmarks",
       "price": 202,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078341/stonehenge-w-640_bwfivr.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/stonehenge-w-320_ewdear.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1448136/pexels-photo-1448136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/stonehenge-w-320_ewdear.jpg",
         "alt": "Stonehenge"
       },
       "bestseller": false,
@@ -110,12 +124,14 @@
       "category": "cities",
       "price": 120.45,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/skyscrapers_uvpaid.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/skyscrappers-w-320_agido7.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/12692135/pexels-photo-12692135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/skyscrappers-w-320_agido7.jpg",
         "alt": "Skyscrapers in a City"
       },
       "bestseller": true,
@@ -128,12 +144,14 @@
       "category": "nature",
       "price": 93.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/green-mountain_igwkwt.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/green-mountain-w-320_zrr9na.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/green-mountain-w-320_zrr9na.jpg",
         "alt": "Green Mountain With River in the Middle"
       },
       "bestseller": false,
@@ -146,12 +164,14 @@
       "category": "people",
       "price": 100,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067816/brown-hoodie_ty3psw.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/brown-hoodie-w-320_irqqof.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2064826/pexels-photo-2064826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/brown-hoodie-w-320_irqqof.jpg",
         "alt": "Man Wearing Brown Hoodie"
       },
       "bestseller": false,
@@ -164,12 +184,14 @@
       "category": "pets",
       "price": 101,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/curious-cat_zbuqob.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/curious-cat-w-320_ppcbaw.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/4398434/pexels-photo-4398434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/curious-cat-w-320_ppcbaw.jpg",
         "alt": "Curious cat lying at home at sunshine"
       },
       "bestseller": false,
@@ -178,17 +200,19 @@
     },
     {
       "id": 9,
-      "name": "Hamburger",
+      "name": "Bacon",
       "category": "food",
       "price": 3.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078341/bacon-w-640_lkwdw5.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/bacon-w-320_io0yqo.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Hamburger and Fries Photo"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/bacon-w-320_io0yqo.jpg",
+        "alt": "Bacon"
       },
       "bestseller": true,
       "featured": false,
@@ -200,12 +224,14 @@
       "category": "landmarks",
       "price": 305,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/flation-building_iopu8i.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/flatiron-building-w-320_ia9j3g.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1123982/pexels-photo-1123982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/flatiron-building-w-320_ia9j3g.jpg",
         "alt": "Low-angle of Flatiron Building"
       },
       "bestseller": false,
@@ -214,17 +240,19 @@
     },
     {
       "id": 11,
-      "name": "Street Lights",
-      "category": "cities",
+      "name": "Seashore",
+      "category": "people",
       "price": 100,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067813/man-at-seashore_du8afi.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/seashore-w-320_orwhgz.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Street Lights"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/seashore-w-320_orwhgz.jpg",
+        "alt": "Man in Hat Standing in Seashore"
       },
       "bestseller": false,
       "featured": false,
@@ -236,12 +264,14 @@
       "category": "nature",
       "price": 101,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/pine-trees_b3umpp.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/pine-trees-w-320_lisciy.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/pine-trees-w-320_lisciy.jpg",
         "alt": "Green Pine Trees"
       },
       "bestseller": false,
@@ -250,17 +280,19 @@
     },
     {
       "id": 13,
-      "name": "Red Bench",
+      "name": "Black Denim",
       "category": "people",
       "price": 3.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078341/black-denim-640_iycwhl.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/black-denim-w-320_km38x1.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Red Bench"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/black-denim-w-320_km38x1.jpg",
+        "alt": "Men in Black Denim"
       },
       "bestseller": true,
       "featured": false,
@@ -268,17 +300,19 @@
     },
     {
       "id": 14,
-      "name": "Egg Balloon",
-      "category": "food",
+      "name": "White Dog",
+      "category": "pets",
       "price": 93.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/white-dog_cjxpm6.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/white-dog-w-320_mktyyd.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Egg Balloon"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/white-dog-w-320_mktyyd.jpg",
+        "alt": "White Fluffy Dog with Mountain in Background"
       },
       "bestseller": false,
       "featured": false,
@@ -286,17 +320,19 @@
     },
     {
       "id": 15,
-      "name": "Seashore",
-      "category": "people",
+      "name": "Pancake",
+      "category": "food",
       "price": 100,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078340/pancake-w-640_oxdrzz.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/pancake-w-320_xucy5b.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Man in Hat Standing in Seashore"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/pancake-w-320_xucy5b.jpg",
+        "alt": "Pancake"
       },
       "bestseller": false,
       "featured": false,
@@ -304,17 +340,19 @@
     },
     {
       "id": 16,
-      "name": "Brown Building",
+      "name": "Stonehenge",
       "category": "landmarks",
-      "price": 101,
+      "price": 202,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078341/stonehenge-w-640_bwfivr.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/stonehenge-w-320_ewdear.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Low Angle Photo of Brown Building"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/stonehenge-w-320_ewdear.jpg",
+        "alt": "Stonehenge"
       },
       "bestseller": false,
       "featured": false,
@@ -322,17 +360,19 @@
     },
     {
       "id": 17,
-      "name": "Red Bench",
-      "category": "people",
-      "price": 3.89,
+      "name": "Skyscrapers",
+      "category": "cities",
+      "price": 120.45,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/skyscrapers_uvpaid.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/skyscrappers-w-320_agido7.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/65958/bench-red-sky-blue-65958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Red Bench"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/skyscrappers-w-320_agido7.jpg",
+        "alt": "Skyscrapers in a City"
       },
       "bestseller": true,
       "featured": false,
@@ -340,17 +380,19 @@
     },
     {
       "id": 18,
-      "name": "Egg Balloon",
-      "category": "food",
+      "name": "Green Mountain",
+      "category": "nature",
       "price": 93.89,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/green-mountain_igwkwt.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/green-mountain-w-320_zrr9na.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/11705955/pexels-photo-11705955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Egg Balloon"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/green-mountain-w-320_zrr9na.jpg",
+        "alt": "Green Mountain With River in the Middle"
       },
       "bestseller": false,
       "featured": false,
@@ -358,17 +400,19 @@
     },
     {
       "id": 19,
-      "name": "Seashore",
+      "name": "Brown Hoodie",
       "category": "people",
       "price": 100,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067816/brown-hoodie_ty3psw.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/brown-hoodie-w-320_irqqof.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/3000497/pexels-photo-3000497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Man in Hat Standing in Seashore"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658072702/brown-hoodie-w-320_irqqof.jpg",
+        "alt": "Man Wearing Brown Hoodie"
       },
       "bestseller": false,
       "featured": false,
@@ -376,17 +420,59 @@
     },
     {
       "id": 20,
-      "name": "Architecture",
-      "category": "landmarks",
+      "name": "Curious cat",
+      "category": "pets",
       "price": 101,
       "currency": "USD",
-      "dimensions": {
-        "width": 1020,
-        "height": 1020
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/curious-cat_zbuqob.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/curious-cat-w-320_ppcbaw.jpg"
       },
       "image": {
-        "src": "https://images.pexels.com/photos/2479178/pexels-photo-2479178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Architecture"
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/curious-cat-w-320_ppcbaw.jpg",
+        "alt": "Curious cat lying at home at sunshine"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 21,
+      "name": "Bacon",
+      "category": "food",
+      "price": 3.89,
+      "currency": "USD",
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078341/bacon-w-640_lkwdw5.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/bacon-w-320_io0yqo.jpg"
+      },
+      "image": {
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078309/bacon-w-320_io0yqo.jpg",
+        "alt": "Bacon"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "id": 22,
+      "name": "Flatiron Building",
+      "category": "landmarks",
+      "price": 305,
+      "currency": "USD",
+      "dimensions": { "width": 320, "height": 480 },
+      "srcset": {
+        "lg": "",
+        "md": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658067814/flation-building_iopu8i.jpg",
+        "sm": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/flatiron-building-w-320_ia9j3g.jpg"
+      },
+      "image": {
+        "src": "https://res.cloudinary.com/ddssmdyq5/image/upload/v1658078310/flatiron-building-w-320_ia9j3g.jpg",
+        "alt": "Low-angle of Flatiron Building"
       },
       "bestseller": false,
       "featured": false,

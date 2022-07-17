@@ -9,13 +9,12 @@ export const StyledProductCard = styled(Box)(
 
 export const StyledProductImage = styled(Box)(
   ({ theme }) => `
-    width: 250px;
     position: relative;
 
     img {
       object-fit: cover;
-      width: 100%;
-      height: 320px;
+      width: 240px;
+      height: 360px;
     }
 
     .bestseller {

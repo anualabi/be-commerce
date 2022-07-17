@@ -13,6 +13,7 @@ export const StyledFeatureHero = styled(Box)(
       position: relative;
 
       img {
+        object-fit: cover;
         width: 100%;
         height: 100%;
       }
@@ -87,12 +88,14 @@ export const StyledFeatureContent = styled(Box)(
         max-width: 390px;
 
         img {
-          width: 90px;
+          object-fit: cover;
+          width: 100px;
+          height: 150px;
         }
       }
 
       p {
-        color: gray;
+        font-size: 0.9rem;
       }
     }
 
