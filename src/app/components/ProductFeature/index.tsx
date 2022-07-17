@@ -11,7 +11,7 @@ const ProductFeature = () => {
 
   if (isLoading) return <Spinner />;
 
-  if (isError) return <Error message="Feature is not available." />;
+  if (isError) return <Error message="Error - Unable to display feature." />;
 
   return (
     <Box sx={{ my: 3 }}>

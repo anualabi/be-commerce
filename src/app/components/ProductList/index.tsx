@@ -10,7 +10,7 @@ const ProductList = () => {
 
   if (isLoading) return <Spinner />;
 
-  if (isError) return <Error message="Feature is not available." />;
+  if (isError) return <Error message="Error - Unable to display list of products." />;
 
   const productList = data?.map((item) => <ProductItem key={item.id} {...item} />);
 
