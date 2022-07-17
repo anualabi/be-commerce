@@ -10,10 +10,12 @@ const NavBar = () => {
     <Box sx={{ mb: 10 }}>
       <StyledNavBar>
         <Toolbar>
-          <Typography component="h1">BEJAMAS_</Typography>
-          <AiOutlineShoppingCart />
+          <Typography variant="h1" className="logo">
+            BEJAMAS_
+          </Typography>
+          <AiOutlineShoppingCart className="cart" />
         </Toolbar>
-        <Divider />
+        <Divider className="divider" />
       </StyledNavBar>
     </Box>
   );

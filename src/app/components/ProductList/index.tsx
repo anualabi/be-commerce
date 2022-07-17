@@ -16,7 +16,7 @@ const ProductList = () => {
 
   return (
     <StyledProducts>
-      <Typography className="products-heading">
+      <Typography variant="h2" className="products-heading">
         Photography / <span>Premium Photos</span>
       </Typography>
       <StyledProductList>{productList}</StyledProductList>

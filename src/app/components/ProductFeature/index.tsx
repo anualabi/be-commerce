@@ -16,31 +16,35 @@ const ProductFeature = () => {
   return (
     <Box sx={{ my: 3 }}>
       <StyledFeatureHero>
-        <Typography component="h1">{data?.name}</Typography>
+        <Typography variant="h1" className="feature-heading">
+          {data?.name}
+        </Typography>
         <Box className="feature-image">
           <img src={data?.image.src} alt={data?.image.alt} />
           <Typography className="image-text">Photo of the day</Typography>
         </Box>
-        <Button variant="contained">Add to cart</Button>
+        <Button variant="contained" className="cart-btn">
+          Add to cart
+        </Button>
       </StyledFeatureHero>
       <StyledFeatureContent>
         <Box className="about-feature">
-          <Typography component="h2">About the {data?.name}</Typography>
-          <Typography component="h3">{data?.category}</Typography>
-          <Typography component="p">{data?.details?.description}</Typography>
+          <Typography variant="h2">About the {data?.name}</Typography>
+          <Typography variant="h3">{data?.category}</Typography>
+          <Typography variant="body1">{data?.details?.description}</Typography>
         </Box>
         <Box className="recommendations">
-          <Typography component="h2">People also buy</Typography>
+          <Typography variant="h2">People also buy</Typography>
           <Box className="recommended-images">
             {data?.details?.recommendations.map((image, index) => (
               <img key={index} src={image.src} alt={image.alt} />
             ))}
           </Box>
-          <Typography component="h2">Details</Typography>
-          <Typography component="p">
+          <Typography variant="h2">Details</Typography>
+          <Typography variant="body1">
             Size: {data?.details?.dimensions.width} x {data?.details?.dimensions.height} pixel
           </Typography>
-          <Typography component="p">
+          <Typography variant="body1">
             Size: {data?.details?.size && data?.details?.size / 1000} mb
           </Typography>
         </Box>

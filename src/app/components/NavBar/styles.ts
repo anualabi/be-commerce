@@ -1,33 +1,33 @@
 import AppBar from '@mui/material/AppBar';
-import { styled } from '@mui/system';
+import { styled } from '@mui/material/styles';
 
-export const StyledNavBar = styled(AppBar, {})`
-  background-color: white;
-  box-shadow: none;
+export const StyledNavBar = styled(AppBar)(
+  ({ theme }) => `
+    background-color: ${theme.palette.primary.light};
+    box-shadow: none;
 
-  h1 {
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-right: auto;
-  }
-
-  svg {
-    font-size: 2.2rem;
-    fill: black;
-    stroke-width: 3px;
-  }
-
-  hr {
-    margin: auto;
-    width: 100%;
-  }
-
-  @media (min-width: 768px) {
-    padding: 0 1.6rem 0 1.2rem;
-
-    hr {
-      width: 98%;
+    .logo {
+      color: ${theme.palette.primary.main};
+      margin-right: auto;
     }
-  }
-`;
+
+    .cart {
+      font-size: 2.2rem;
+      fill: ${theme.palette.primary.main};
+      stroke-width: 3px;
+    }
+
+    .divider {
+      margin: auto;
+      width: 100%;
+    }
+
+    ${theme.breakpoints.up('md')} {
+      padding: 0 1.6rem 0 1.2rem;
+
+      .divider {
+        width: 98%;
+      }
+    }
+  `
+);

@@ -15,7 +15,7 @@ const ProductItem = (item: IProduct) => {
       </StyledProductImage>
       <StyledProductContent>
         <Typography className="category">{category}</Typography>
-        <Typography className="name">{name}</Typography>
+        <Typography variant="h3">{name}</Typography>
         <Typography className="price">{formatPrice(price)}</Typography>
       </StyledProductContent>
     </StyledProductCard>
