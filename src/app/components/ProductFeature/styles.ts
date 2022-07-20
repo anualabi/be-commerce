@@ -29,8 +29,9 @@ export const StyledFeatureHero = styled(Box)(
       }
     }
 
-    .cart-btn {
+    .btn-cart {
       background-color: ${theme.palette.primary.main};
+      font-weight: 600;
       border-radius: 0;
     }
 
@@ -50,8 +51,8 @@ export const StyledFeatureHero = styled(Box)(
         }
       }
 
-      .cart-btn {
-        order: 1;
+      .btn-cart {
+        order: 2;
       }
     }
 

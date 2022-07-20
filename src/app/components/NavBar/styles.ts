@@ -11,15 +11,17 @@ export const StyledNavBar = styled(AppBar)(
       margin-right: auto;
     }
 
-    .cart {
-      font-size: 2.2rem;
-      fill: ${theme.palette.primary.main};
-      stroke-width: 3px;
-    }
-
     .divider {
       margin: auto;
       width: 100%;
+    }
+
+    .show {
+      display: block;
+    }
+
+    .hide {
+      display: none;
     }
 
     ${theme.breakpoints.up('md')} {

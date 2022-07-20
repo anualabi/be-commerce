@@ -30,6 +30,8 @@ export const StyledProductImage = styled(Box)(
     button {
       background-color: ${theme.palette.primary.main};
       border: none;
+      border-radius: 0;
+      box-shadow: none;
       color: ${theme.palette.primary.light};
       height: 50px;
       opacity: 0;
@@ -37,16 +39,27 @@ export const StyledProductImage = styled(Box)(
       text-transform: uppercase;
       transition: 0.5s ease;
       letter-spacing: 1px;
-      bottom: 0px;
+      bottom: 5px;
       left: 0px;
       width: 100%;
+
+      &:disabled {
+        color: ${theme.palette.primary.light};
+        background-color: rgba(${theme.palette.primary.dark}, 0.99);
+      }
     }
 
     &:hover button {
-      opacity: 1;
+      background-color: ${theme.palette.primary.main};
+      box-shadow: none;
       cursor: pointer;
+      opacity: 1;
     }
-    
+
+    &:hover button:disabled {
+      cursor: default;
+      opacity: 0.8;
+    }
     `
 );
 

@@ -22,7 +22,7 @@ function App() {
   );
 }
 
-export const StyledSiteBody = styled(Box, {})`
+const StyledSiteBody = styled(Box, {})`
   padding: 0 0.5rem;
 
   @media (min-width: 768px) {

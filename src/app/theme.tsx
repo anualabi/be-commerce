@@ -4,7 +4,8 @@ export const theme = createTheme({
   palette: {
     primary: {
       light: '#ffffff',
-      main: '#000000'
+      main: '#000000',
+      dark: '#303030'
     }
   },
   breakpoints: {
@@ -37,6 +38,27 @@ export const theme = createTheme({
       fontWeight: 600,
       '@media (min-width:768px)': {
         fontSize: '1.3rem'
+      }
+    },
+    h4: {
+      fontSize: '1rem',
+      fontWeight: 600,
+      '@media (min-width:768px)': {
+        fontSize: '1.2rem'
+      }
+    },
+    h5: {
+      fontSize: '0.9rem',
+      fontWeight: 600,
+      '@media (min-width:768px)': {
+        fontSize: '1.1rem'
+      }
+    },
+    h6: {
+      fontSize: '0.8rem',
+      fontWeight: 600,
+      '@media (min-width:768px)': {
+        fontSize: '1rem'
       }
     },
     body1: {

@@ -1,10 +1,15 @@
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import { StyledProductCard, StyledProductImage, StyledProductContent } from './styles';
 import { IProduct } from '../../shared/types/product';
 import { formatPrice } from '../../shared/utils/helpers';
+import { useCartContext } from '../../state/cart/cartContext';
 
 const ProductItem = (item: IProduct) => {
-  const { name, image, category, price, bestseller, dimensions, srcset } = item;
+  const { id, name, image, category, price, bestseller, dimensions, srcset } = item;
+  const { addToCart, state } = useCartContext();
+
+  const isProductInCart = state.cart.some((c: { id: number }) => c.id === id);
 
   return (
     <StyledProductCard>
@@ -18,7 +23,9 @@ const ProductItem = (item: IProduct) => {
           height={dimensions.height}
         />
         {bestseller && <Typography className="bestseller">Best Seller</Typography>}
-        <button>Add to cart</button>
+        <Button onClick={() => addToCart(id, name, image, price)} disabled={isProductInCart}>
+          {isProductInCart ? 'Item in cart' : 'Add to cart'}
+        </Button>
       </StyledProductImage>
       <StyledProductContent>
         <Typography className="category">{category}</Typography>
