@@ -6,10 +6,17 @@ export const StyledProducts = styled(Box)(
   () => `
     margin-top: 2rem;
 
-    .products-heading {
-      span {
-        font-weight: 400;
-      }
+    .products-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      .products-heading {
+        span {
+          font-weight: 400;
+        }
+    }
+
     }
   `
 );

@@ -16,10 +16,11 @@ export function useFeaturedProduct() {
   });
 }
 
-export function useProductList(page = 1) {
+export function useProductList(page = 1, sortBy = 'price', orderBy = 'asc') {
   return useQuery(
-    ['products', { page }],
-    async () => axios.get(`${productListUrl}?_page=${page}&_limit=6`),
+    ['products', { page, sortBy, orderBy }],
+    async () =>
+      axios.get(`${productListUrl}?_page=${page}&_limit=6&_sort=${sortBy}&_order=${orderBy}`),
     {
       keepPreviousData: true,
       refetchOnWindowFocus: false

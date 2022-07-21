@@ -33,6 +33,9 @@ The features implemented are as follows:
 - Pagination
   - Products should be paginated. Show 6 items on each page.
   - The pagination should show the current page. Hide the 'prev' arrow on the first page and hide the 'next' arrow on the last page.
+- Sorting
+  - Implement 2 types of sorting: by price and by alphabet.
+  - Use basic HTML select. Clicking on arrows should change the order to 'ascending' or 'descending'.
 - WebPerformance
   - Optimise Your website using lighthouse reports. Try to achieve 80+ score in web core vitals. (mobile and desktop)
 
