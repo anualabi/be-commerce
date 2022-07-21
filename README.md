@@ -30,6 +30,9 @@ The features implemented are as follows:
   - Each 'Add to cart' action should open the cart dropdown with items.
   - The cart dropdown should be also visible after clicking the basket icon in the header.
   - Clicking on the "Clear" button in the cart dropdown should remove items from the cart and hide the dropdown.
+- Pagination
+  - Products should be paginated. Show 6 items on each page.
+  - The pagination should show the current page. Hide the 'prev' arrow on the first page and hide the 'next' arrow on the last page.
 - WebPerformance
   - Optimise Your website using lighthouse reports. Try to achieve 80+ score in web core vitals. (mobile and desktop)
 
@@ -43,6 +46,9 @@ To run this application, you'll need [Node.js](https://nodejs.org/en/download/) 
 # Install dependencies
 $ npm install
 
-# Start the database and App
-$ npm run serve
+# Start the database
+$ npm run serve-json
+
+# Run the App
+$ npm start
 ```
