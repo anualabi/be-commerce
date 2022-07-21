@@ -16,7 +16,7 @@ const ProductFeature = () => {
   if (isError) return <Error message="Error - Unable to display feature." />;
 
   if (!data) {
-    return <Typography>Data not found.</Typography>;
+    return <Typography>Feature not found.</Typography>;
   }
 
   const { id, name, srcset, image, price, dimensions, category, details } = data;

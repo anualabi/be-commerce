@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { createContext, useReducer, useContext, ReactNode } from 'react';
+import { useEffect, createContext, useReducer, useContext, ReactNode } from 'react';
 import cartReducer, { ActionType, State } from './cartReducer';
 import { IProductImage } from '../../shared/types/product';
 

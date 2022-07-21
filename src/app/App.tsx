@@ -27,6 +27,7 @@ const StyledSiteBody = styled(Box, {})`
 
   @media (min-width: 768px) {
     padding: 0 2rem;
+    margin-bottom: 2rem;
   }
 `;
 
