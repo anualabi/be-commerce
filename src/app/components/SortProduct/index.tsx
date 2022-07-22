@@ -2,25 +2,24 @@ import { RiArrowUpDownLine } from 'react-icons/ri';
 import { StyledSortForm } from './styles';
 
 interface ISortProduct {
-  value: string;
-  handleSort: (e: string) => void;
-  toggleSort: () => void;
+  sortType: string;
+  handleSortBy: (e: string) => void;
+  handleOrderBy: () => void;
 }
 
-const SortProduct = ({ value, handleSort, toggleSort }: ISortProduct) => {
+const SortProduct = ({ sortType, handleSortBy, handleOrderBy }: ISortProduct) => {
   return (
     <StyledSortForm>
       <form>
-        <label htmlFor="sort" onClick={toggleSort}>
+        <label htmlFor="sort" onClick={handleOrderBy}>
           <RiArrowUpDownLine />
           Sort By
         </label>
         <select
           name="sort"
           id="sort"
-          className="sort-products"
-          value={value}
-          onChange={(e) => handleSort(e.target.value)}
+          value={sortType}
+          onChange={(e) => handleSortBy(e.target.value)}
         >
           <option value="price">Price</option>
           <option value="name">Alphabet</option>

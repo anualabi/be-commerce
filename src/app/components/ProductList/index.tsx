@@ -38,7 +38,11 @@ const ProductList = () => {
         <Typography variant="h2" className="products-heading">
           Photography / <span>Premium Photos</span>
         </Typography>
-        <SortProduct value={sortBy} handleSort={onProductSort} toggleSort={onProductOrder} />
+        <SortProduct
+          sortType={sortBy}
+          handleSortBy={onProductSort}
+          handleOrderBy={onProductOrder}
+        />
       </Box>
       <StyledProductList>{productList}</StyledProductList>
       <StyledPagination
