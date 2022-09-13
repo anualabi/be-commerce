@@ -1,14 +1,10 @@
 import axios from 'axios';
 import { useQuery } from 'react-query';
+import { fetchData } from '../../services/services';
 import { Product } from '../types/product';
 
 const featureProductUrl = 'http://localhost:4000/featured';
 const productListUrl = 'http://localhost:4000/products';
-
-const fetchData = async <T>(url: string): Promise<T> => {
-  const { data } = await axios.get(url);
-  return data as T;
-};
 
 export function useFeaturedProduct() {
   return useQuery<Product, Error>(['featuredProduct'], () => fetchData(featureProductUrl), {
