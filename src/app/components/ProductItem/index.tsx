@@ -1,11 +1,11 @@
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { StyledProductCard, StyledProductImage, StyledProductContent } from './styles';
-import { IProduct } from '../../shared/types/product';
+import { Product } from '../../shared/types/product';
 import { formatPrice } from '../../shared/utils/helpers';
 import { useCartContext } from '../../state/cart/cartContext';
 
-const ProductItem = (item: IProduct) => {
+const ProductItem = (item: Product) => {
   const { id, name, image, category, price, bestseller, dimensions, srcset } = item;
   const { addToCart, state } = useCartContext();
 

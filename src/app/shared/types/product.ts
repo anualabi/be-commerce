@@ -1,4 +1,4 @@
-export type IProductImage = {
+export type ProductImage = {
   src: string;
   alt: string;
 };
@@ -9,10 +9,10 @@ type ProductDetails = {
   dimensions: ProductDimension;
   size: number;
   description: string;
-  recommendations: IProductImage[];
+  recommendations: ProductImage[];
 };
 
-export interface IProduct {
+export interface Product {
   id: number;
   name: string;
   category: string;
@@ -20,10 +20,10 @@ export interface IProduct {
   currency: string;
   dimensions: ProductDimension;
   srcset: { lg: string; md: string; sm: string };
-  image: IProductImage;
+  image: ProductImage;
   bestseller: boolean;
   featured: boolean;
   details: ProductDetails;
 }
 
-export type ICart = Pick<IProduct, 'id' | 'name' | 'image' | 'price'>;
+export type ICart = Pick<Product, 'id' | 'name' | 'image' | 'price'>;

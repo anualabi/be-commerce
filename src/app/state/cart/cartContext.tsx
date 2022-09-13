@@ -1,12 +1,12 @@
 import { useEffect, createContext, useReducer, useContext, ReactNode } from 'react';
 import cartReducer, { ActionType, State } from './cartReducer';
-import { IProductImage } from '../../shared/types/product';
+import { ProductImage } from '../../shared/types/product';
 
 type Children = { children: ReactNode };
 
 interface ICartContext {
   state: State;
-  addToCart: (id: number, name: string, image: IProductImage, price: number) => void;
+  addToCart: (id: number, name: string, image: ProductImage, price: number) => void;
   clearCart: () => void;
   toggleCart: () => void;
 }
@@ -36,7 +36,7 @@ const CartContext = createContext<ICartContext>({
 export const CartProvider = (props: Children) => {
   const [state, dispatch] = useReducer(cartReducer, initialState);
 
-  const addToCart = (id: number, name: string, image: IProductImage, price: number): void => {
+  const addToCart = (id: number, name: string, image: ProductImage, price: number): void => {
     dispatch({ type: ActionType.ADD_TO_CART, payload: { id, name, image, price } });
   };
 

@@ -7,7 +7,7 @@ import { Error } from '../../shared/components/Error';
 import ProductItem from '../ProductItem';
 import { getLastPageNumber } from '../../shared/utils/helpers';
 import { StyledProducts, StyledProductList, StyledPagination } from './styles';
-import { IProduct } from '../../shared/types/product';
+import { Product } from '../../shared/types/product';
 import SortProduct from '../SortProduct';
 
 const ProductList = () => {
@@ -24,7 +24,7 @@ const ProductList = () => {
     return <Typography>No images were found.</Typography>;
   }
 
-  const productList = data.data.map((item: IProduct) => <ProductItem key={item.id} {...item} />);
+  const productList = data.data.map((item: Product) => <ProductItem key={item.id} {...item} />);
 
   const onPageChange = (event: React.ChangeEvent<unknown>, value: number) => setPage(value);
 

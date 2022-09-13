@@ -1,13 +1,13 @@
 import { RiArrowUpDownLine } from 'react-icons/ri';
 import { StyledSortForm } from './styles';
 
-interface ISortProduct {
+interface SortProduct {
   sortType: string;
   handleSortBy: (e: string) => void;
   handleOrderBy: () => void;
 }
 
-const SortProduct = ({ sortType, handleSortBy, handleOrderBy }: ISortProduct) => {
+const SortProduct = ({ sortType, handleSortBy, handleOrderBy }: SortProduct) => {
   return (
     <StyledSortForm>
       <form>

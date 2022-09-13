@@ -2,11 +2,11 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { useCartContext } from '../../state/cart/cartContext';
 import { StyledCartIcon } from './styles';
 
-type IToggleCart = {
+type ToggleCart = {
   toggleCart: () => void;
 };
 
-const CartIcon = ({ toggleCart }: IToggleCart) => {
+const CartIcon = ({ toggleCart }: ToggleCart) => {
   const { state } = useCartContext();
   const isItemInCart = state.cart.length > 0;
 
